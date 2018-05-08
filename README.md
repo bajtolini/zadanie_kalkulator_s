@@ -14,3 +14,13 @@
 - Wszystkie komunikaty otrzymywane z backendu są wyświetlane za pomocą Toast-ów
 
 ## Dodatkowe dane
+- W testach występuje błąd spowodowany połączeniem Mock-ów, JUnit4 i JUnit5
+
+```
+Initialization Error
+org.mockito.exceptions.base.MockitoException:
+
+No tests found in CountryFactoryTest
+Is the method annotated with @Test?
+Is the method public?
+```
